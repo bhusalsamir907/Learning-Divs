@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <title>Learnig divs</title>
+    <style type="text/css">
+        {
+            margin: 0;
+            padding :0;
+            border: 0
+            /* box-sizing:border-box; */
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .red {
+            text-align:center;
+            border: 2px solid black;
+            width: 50%;
+            height: 50vh;
+            background-color: aqua;
+        }
+
+        .blue {
+            text-align:center;
+            border: 2px solid black;
+            width: 50%;
+            height: 50vh;
+            background-color: salmon;
+        }
+
+        .green {
+            text-align:center;
+            border: 2px solid black;
+            width: 50%;
+            height: 50vh;
+            background-color: dodgerblue;
+        }
+
+        .black {
+            text-align:center;
+            border: 2px solid black;
+            width: 50%;
+            height: 50vh;
+            background-color: wheat;
+        }
+
+        .red:hover {
+            background-color: red;
+        }
+
+        .blue:hover {
+            background-color: blue;
+        }
+
+        .green:hover {
+            background-color: green;
+        }
+
+        .black:hover {
+            background-color: black;
+        }
+        .text {
+            height:5%;
+            width:13%;
+            text-align:center;
+            border: 2px solid black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-size-adjust:auto;
+            background-color:azure;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="red">Red</div>
+        <div class="blue">Blue</div>
+    </div>
+    <div class="text">Hover to correct the colour</div>
+    <div class="container">
+        <div class="green">Green</div>
+        <div class="black">Black</div>
+
+    </div>
+
+
+
+
+</body>
+</html>

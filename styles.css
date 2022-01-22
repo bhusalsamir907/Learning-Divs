@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    /* display: flex; */
+    float: left;
+    width: auto;
+    /* width: 100%; */
+
+}
+
+.box1{
+    width: 50%;
+    float: left;
+
+}
+
+.box2{
+    width: 50%;
+}
+
+
